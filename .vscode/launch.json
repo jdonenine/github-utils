@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "find-all-merged-non-approved-prs: jdonenine/token-test",
+            "type": "python",
+            "request": "launch",
+            "program": "scripts/python/find-all-merged-non-approved-prs.py",
+            "args" : ["--token", "insert-token-here", "--repo", "jdonenine/token-test"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
